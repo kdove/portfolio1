@@ -1,0 +1,91 @@
+<style>
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .header {
+        overflow: hidden;
+        background-color: #fff;
+        padding: 0;
+        border-bottom: 4px solid #777;
+        margin: 0;
+        width: 100%;
+    }
+    .header a {
+        float: right;
+        color: #777777;
+        text-align: center;
+        padding: 0;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 1px;
+        display: block;
+      }
+      .header a.logo {
+        font-size: 25px;
+        font-weight: bold;
+        background-color: #4AAAA5;
+        color: white;
+        margin: 0;
+        padding: 10px 10px 10px 10px;
+        float: left;
+      }
+    * {
+    box-sizing: border-box;
+    margin: 0px 30px 0px 30px;
+    padding: 20px;
+    }
+}
+.contentbody 
+{
+	margin: auto;
+	width: 80em;
+  	text-align: left;
+  	font-family: Arial, Helvetica, sans-serif;
+  	font: #777777;
+  	border-block-color: #dddddd;
+} 
+.p1 {
+	margin: auto;
+	width: 80em;
+	font-family: Arial, Helvetica, sans-serif;
+	font: #777777;
+	border-block-color: #dddddd;	
+}
+
+.column3 {
+	width: 25px;
+	height: 100%;
+	background-image: inherit;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+  }
+  .content {
+	min-height: 100%;
+  }
+  .content-inside {
+	padding: 20px;
+	padding-bottom: 50px;
+  }
+  .footer {
+	height: 50px;
+	margin-top: -50px;
+  }
+
+.footer 
+{
+  background-color: #666666;
+  padding: 10px;
+  border-top: 8px solid #4aaaa5;
+  border-bottom: 8px solid 
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 5%;
+  background-color: #666666;
+  text-align: center;
+}
+</style>

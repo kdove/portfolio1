@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>3 Column CSS Layout - nested design</title>
+<style type='text/css'>
+.colmask{
+   position: relative;
+   overflow: hidden;
+   margin: 0px auto;
+   width: 100%;
+   height: 150px;
+   background-color: #b4d2f7
+}
+.header{
+   float: left;
+   width: 100%;
+   height: 150px;
+   background-color: #f4f4f4
+}
+.colmid{
+   position: relative;
+   width: 100%;
+   right: 23%;
+   background-color: #b4d2f7
+}
+.colleft{
+   position: relative;
+   width: 100%;
+   right: 63%;
+   background-color: #b4d2f7
+}
+.col1{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 61.4%;
+   left: 100.8%;
+   height: 700px;
+   background-color: #99ccff
+}
+.col2{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 12.4%;
+   left: 25.4%;
+   height: 700px;
+   background-color: #99ccff
+}
+.col3{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 21.4%;
+   left: 90%;
+   height: 700px;
+   background-color: #99ccff
+}
+.footer{
+   float: left;
+   width: 100%;
+   height: 150px;
+   background-color: #b4caf7
+}
+body {
+   padding: 0px;
+   margin: 0px;
+   font-size: 90%;
+   background-color: #e7e7de
+}
+</style>
+</head>
+<body>
+<div class="colmask">
+    <div class="header">
+        header
+    </div>
+    <div class="colmid">
+    <div class="colleft">
+        <div class="col1">
+            mid
+        </div>
+        <div class="col2">
+            left
+        </div> 
+        <div class="col3">
+            right
+        </div> 
+    </div> 
+    </div>
+    <div class="footer">
+        footer
+    </div>
+</div>
+</body>
+</html>
